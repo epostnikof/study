@@ -1,0 +1,40 @@
+Sep 26 03:24:03 filebeat postfix/pickup[2088]: 39BD8164DA0: uid=0 from=<root>
+Sep 26 03:24:03 filebeat postfix/cleanup[2405]: 39BD8164DA0: message-id=<20210926032403.39BD8164DA0@filebeat.ru-central1.internal>
+Sep 26 03:24:03 filebeat postfix/qmgr[1083]: 39BD8164DA0: from=<root@filebeat.ru-central1.internal>, size=736, nrcpt=1 (queue active)
+Sep 26 03:24:03 filebeat postfix/local[2407]: 39BD8164DA0: to=<root@filebeat.ru-central1.internal>, orig_to=<root>, relay=local, delay=0.25, delays=0.17/0.05/0/0.02, dsn=2.0.0, status=sent (delivered to mailbox)
+Sep 26 03:24:03 filebeat postfix/qmgr[1083]: 39BD8164DA0: removed
+Sep 26 03:26:04 filebeat postfix/qmgr[1083]: 22B79164DA6: from=<nginx@filebeat.ru-central1.internal>, size=894, nrcpt=1 (queue active)
+Sep 26 03:26:05 filebeat postfix/smtp[2410]: 22B79164DA6: to=<epostnikof@re.ru>, relay=none, delay=225550, delays=225549/0.04/0.56/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=re.ru type=MX: Host not found, try again)
+Sep 26 04:36:04 filebeat postfix/qmgr[1083]: 22B79164DA6: from=<nginx@filebeat.ru-central1.internal>, size=894, nrcpt=1 (queue active)
+Sep 26 04:36:04 filebeat postfix/smtp[2461]: 22B79164DA6: to=<epostnikof@re.ru>, relay=none, delay=229750, delays=229749/0.13/0.45/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=re.ru type=MX: Host not found, try again)
+Sep 26 05:46:04 filebeat postfix/qmgr[1083]: 22B79164DA6: from=<nginx@filebeat.ru-central1.internal>, size=894, nrcpt=1 (queue active)
+Sep 26 05:46:04 filebeat postfix/smtp[2635]: 22B79164DA6: to=<epostnikof@re.ru>, relay=none, delay=233949, delays=233949/0.07/0.37/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=re.ru type=MX: Host not found, try again)
+Sep 26 06:56:04 filebeat postfix/qmgr[1083]: 22B79164DA6: from=<nginx@filebeat.ru-central1.internal>, size=894, nrcpt=1 (queue active)
+Sep 26 06:56:05 filebeat postfix/smtp[2676]: 22B79164DA6: to=<epostnikof@re.ru>, relay=none, delay=238150, delays=238149/0.1/0.48/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=re.ru type=MX: Host not found, try again)
+Sep 26 08:06:04 filebeat postfix/qmgr[1083]: 22B79164DA6: from=<nginx@filebeat.ru-central1.internal>, size=894, nrcpt=1 (queue active)
+Sep 26 08:06:04 filebeat postfix/smtp[2737]: 22B79164DA6: to=<epostnikof@re.ru>, relay=none, delay=242350, delays=242349/0.11/0.55/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=re.ru type=MX: Host not found, try again)
+Sep 26 09:16:05 filebeat postfix/qmgr[1083]: 22B79164DA6: from=<nginx@filebeat.ru-central1.internal>, size=894, nrcpt=1 (queue active)
+Sep 26 09:16:06 filebeat postfix/smtp[2790]: 22B79164DA6: to=<epostnikof@re.ru>, relay=none, delay=246551, delays=246551/0.04/0.52/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=re.ru type=MX: Host not found, try again)
+Sep 26 10:26:05 filebeat postfix/qmgr[1083]: 22B79164DA6: from=<nginx@filebeat.ru-central1.internal>, size=894, nrcpt=1 (queue active)
+Sep 26 10:26:05 filebeat postfix/smtp[2828]: 22B79164DA6: to=<epostnikof@re.ru>, relay=none, delay=250751, delays=250750/0.06/0.7/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=re.ru type=MX: Host not found, try again)
+Sep 26 11:36:05 filebeat postfix/qmgr[1083]: 22B79164DA6: from=<nginx@filebeat.ru-central1.internal>, size=894, nrcpt=1 (queue active)
+Sep 26 11:36:06 filebeat postfix/smtp[2872]: 22B79164DA6: to=<epostnikof@re.ru>, relay=none, delay=254951, delays=254951/0.14/0.41/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=re.ru type=MX: Host not found, try again)
+Sep 26 12:46:06 filebeat postfix/qmgr[1083]: 22B79164DA6: from=<nginx@filebeat.ru-central1.internal>, size=894, nrcpt=1 (queue active)
+Sep 26 12:46:07 filebeat postfix/smtp[2927]: 22B79164DA6: to=<epostnikof@re.ru>, relay=none, delay=259152, delays=259152/0.11/0.37/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=re.ru type=MX: Host not found, try again)
+Sep 26 13:56:06 filebeat postfix/qmgr[1083]: 22B79164DA6: from=<nginx@filebeat.ru-central1.internal>, size=894, nrcpt=1 (queue active)
+Sep 26 13:56:07 filebeat postfix/smtp[2971]: 22B79164DA6: to=<epostnikof@re.ru>, relay=none, delay=263352, delays=263351/0.08/0.4/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=re.ru type=MX: Host not found, try again)
+Sep 26 15:06:07 filebeat postfix/qmgr[1083]: 22B79164DA6: from=<nginx@filebeat.ru-central1.internal>, size=894, nrcpt=1 (queue active)
+Sep 26 15:06:07 filebeat postfix/smtp[3025]: 22B79164DA6: to=<epostnikof@re.ru>, relay=none, delay=267553, delays=267552/0.07/0.37/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=re.ru type=MX: Host not found, try again)
+Sep 26 15:44:19 centos postfix/postfix-script[3100]: stopping the Postfix mail system
+Sep 26 15:44:19 centos postfix/master[1081]: terminating on signal 15
+Oct  9 15:01:02 centos postfix/postfix-script[1078]: starting the Postfix mail system
+Oct  9 15:01:02 centos postfix/master[1080]: daemon started -- version 3.5.8, configuration /etc/postfix
+Oct  9 15:01:02 centos postfix/qmgr[1082]: 22B79164DA6: from=<nginx@filebeat.ru-central1.internal>, size=894, nrcpt=1 (queue active)
+Oct  9 15:01:03 centos postfix/smtp[1086]: 22B79164DA6: to=<epostnikof@re.ru>, relay=none, delay=1390448, delays=1390447/0.5/0.55/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=re.ru type=MX: Host not found, try again)
+Oct  9 15:01:03 centos postfix/qmgr[1082]: 22B79164DA6: from=<nginx@filebeat.ru-central1.internal>, status=expired, returned to sender
+Oct  9 15:01:03 centos postfix/cleanup[1126]: 9A2A3164DA0: message-id=<20211009150103.9A2A3164DA0@centos.ru-central1.internal>
+Oct  9 15:01:03 centos postfix/qmgr[1082]: 9A2A3164DA0: from=<>, size=3085, nrcpt=1 (queue active)
+Oct  9 15:01:03 centos postfix/bounce[1124]: 22B79164DA6: sender non-delivery notification: 9A2A3164DA0
+Oct  9 15:01:03 centos postfix/qmgr[1082]: 22B79164DA6: removed
+Oct  9 15:01:03 centos postfix/local[1133]: 9A2A3164DA0: to=<nginx@filebeat.ru-central1.internal>, relay=local, delay=0.31, delays=0.15/0.11/0/0.05, dsn=2.0.0, status=sent (delivered to mailbox)
+Oct  9 15:01:03 centos postfix/qmgr[1082]: 9A2A3164DA0: removed

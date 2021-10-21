@@ -1,0 +1,5 @@
+Oct  9 16:49:03 centos postfix/pickup[32671]: 19DD5164DA8: uid=0 from=<root>
+Oct  9 16:49:03 centos postfix/cleanup[32715]: 19DD5164DA8: message-id=<20211009164903.19DD5164DA8@centos.ru-central1.internal>
+Oct  9 16:49:03 centos postfix/qmgr[1082]: 19DD5164DA8: from=<root@centos.ru-central1.internal>, size=726, nrcpt=1 (queue active)
+Oct  9 16:49:03 centos postfix/local[32717]: 19DD5164DA8: to=<root@centos.ru-central1.internal>, orig_to=<root>, relay=local, delay=0.15, delays=0.1/0.01/0/0.04, dsn=2.0.0, status=sent (delivered to mailbox)
+Oct  9 16:49:03 centos postfix/qmgr[1082]: 19DD5164DA8: removed

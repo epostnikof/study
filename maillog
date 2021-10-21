@@ -1,0 +1,32 @@
+Oct 17 03:07:02 centos postfix/pickup[16153]: AF01DD091A: uid=0 from=<root>
+Oct 17 03:07:02 centos postfix/cleanup[16912]: AF01DD091A: message-id=<20211017030702.AF01DD091A@centos.ru-central1.internal>
+Oct 17 03:07:02 centos postfix/qmgr[1085]: AF01DD091A: from=<root@centos.ru-central1.internal>, size=724, nrcpt=1 (queue active)
+Oct 17 03:07:02 centos postfix/local[16914]: AF01DD091A: to=<root@centos.ru-central1.internal>, orig_to=<root>, relay=local, delay=0.11, delays=0.06/0.03/0/0.02, dsn=2.0.0, status=sent (delivered to mailbox)
+Oct 17 03:07:02 centos postfix/qmgr[1085]: AF01DD091A: removed
+Oct 17 14:53:01 centos postfix/postfix-script[32829]: stopping the Postfix mail system
+Oct 17 14:53:01 centos postfix/master[1083]: terminating on signal 15
+Oct 18 06:46:57 centos postfix/postfix-script[1097]: starting the Postfix mail system
+Oct 18 06:46:57 centos postfix/master[1099]: daemon started -- version 3.5.8, configuration /etc/postfix
+Oct 18 07:20:01 centos postfix/pickup[1101]: D9B70D091A: uid=0 from=<root>
+Oct 18 07:20:01 centos postfix/cleanup[2306]: D9B70D091A: message-id=<20211018072001.D9B70D091A@centos.ru-central1.internal>
+Oct 18 07:20:01 centos postfix/qmgr[1102]: D9B70D091A: from=<root@centos.ru-central1.internal>, size=724, nrcpt=1 (queue active)
+Oct 18 07:20:02 centos postfix/local[2315]: D9B70D091A: to=<root@centos.ru-central1.internal>, orig_to=<root>, relay=local, delay=0.17, delays=0.08/0.05/0/0.03, dsn=2.0.0, status=sent (delivered to mailbox)
+Oct 18 07:20:02 centos postfix/qmgr[1102]: D9B70D091A: removed
+Oct 19 06:45:16 centos postfix/postfix-script[34286]: stopping the Postfix mail system
+Oct 19 06:45:16 centos postfix/master[1099]: terminating on signal 15
+Oct 19 15:35:22 centos postfix/postfix-script[1079]: starting the Postfix mail system
+Oct 19 15:35:22 centos postfix/master[1081]: daemon started -- version 3.5.8, configuration /etc/postfix
+Oct 20 03:45:02 centos postfix/pickup[19240]: 39500120080: uid=0 from=<root>
+Oct 20 03:45:02 centos postfix/cleanup[19910]: 39500120080: message-id=<20211020034502.39500120080@centos.ru-central1.internal>
+Oct 20 03:45:02 centos postfix/qmgr[1083]: 39500120080: from=<root@centos.ru-central1.internal>, size=726, nrcpt=1 (queue active)
+Oct 20 03:45:02 centos postfix/local[19912]: 39500120080: to=<root@centos.ru-central1.internal>, orig_to=<root>, relay=local, delay=0.11, delays=0.06/0.04/0/0.02, dsn=2.0.0, status=sent (delivered to mailbox)
+Oct 20 03:45:02 centos postfix/qmgr[1083]: 39500120080: removed
+Oct 20 15:34:33 centos postfix/postfix-script[35852]: stopping the Postfix mail system
+Oct 20 15:34:33 centos postfix/master[1081]: terminating on signal 15
+Oct 20 15:35:48 centos postfix/postfix-script[1082]: starting the Postfix mail system
+Oct 20 15:35:48 centos postfix/master[1084]: daemon started -- version 3.5.8, configuration /etc/postfix
+Oct 21 03:49:02 centos postfix/pickup[17535]: 5DB70120082: uid=0 from=<root>
+Oct 21 03:49:02 centos postfix/cleanup[18257]: 5DB70120082: message-id=<20211021034902.5DB70120082@centos.ru-central1.internal>
+Oct 21 03:49:02 centos postfix/qmgr[1092]: 5DB70120082: from=<root@centos.ru-central1.internal>, size=726, nrcpt=1 (queue active)
+Oct 21 03:49:02 centos postfix/local[18259]: 5DB70120082: to=<root@centos.ru-central1.internal>, orig_to=<root>, relay=local, delay=0.09, delays=0.05/0.03/0/0.01, dsn=2.0.0, status=sent (delivered to mailbox)
+Oct 21 03:49:02 centos postfix/qmgr[1092]: 5DB70120082: removed

@@ -1,0 +1,40 @@
+Oct 10 14:59:38 centos postfix/postfix-script[33849]: stopping the Postfix mail system
+Oct 10 14:59:38 centos postfix/master[1080]: terminating on signal 15
+Oct 12 10:45:42 centos postfix/postfix-script[1080]: starting the Postfix mail system
+Oct 12 10:45:43 centos postfix/master[1084]: daemon started -- version 3.5.8, configuration /etc/postfix
+Oct 12 11:09:02 centos postfix/pickup[1085]: 59619164DA8: uid=0 from=<root>
+Oct 12 11:09:02 centos postfix/cleanup[5812]: 59619164DA8: message-id=<20211012110902.59619164DA8@centos.ru-central1.internal>
+Oct 12 11:09:02 centos postfix/qmgr[1087]: 59619164DA8: from=<root@centos.ru-central1.internal>, size=726, nrcpt=1 (queue active)
+Oct 12 11:09:02 centos postfix/local[5814]: 59619164DA8: to=<root@centos.ru-central1.internal>, orig_to=<root>, relay=local, delay=0.16, delays=0.11/0.03/0/0.02, dsn=2.0.0, status=sent (delivered to mailbox)
+Oct 12 11:09:02 centos postfix/qmgr[1087]: 59619164DA8: removed
+Oct 13 10:44:48 centos postfix/postfix-script[10266]: stopping the Postfix mail system
+Oct 13 10:44:48 centos postfix/master[1084]: terminating on signal 15
+Oct 13 11:42:15 centos postfix/postfix-script[1071]: starting the Postfix mail system
+Oct 13 11:42:15 centos postfix/master[1075]: daemon started -- version 3.5.8, configuration /etc/postfix
+Oct 14 03:28:01 centos postfix/pickup[14694]: 8BF4C164DA4: uid=0 from=<root>
+Oct 14 03:28:01 centos postfix/cleanup[15429]: 8BF4C164DA4: message-id=<20211014032801.8BF4C164DA4@centos.ru-central1.internal>
+Oct 14 03:28:01 centos postfix/qmgr[1081]: 8BF4C164DA4: from=<root@centos.ru-central1.internal>, size=726, nrcpt=1 (queue active)
+Oct 14 03:28:01 centos postfix/local[15431]: 8BF4C164DA4: to=<root@centos.ru-central1.internal>, orig_to=<root>, relay=local, delay=0.12, delays=0.07/0.02/0/0.03, dsn=2.0.0, status=sent (delivered to mailbox)
+Oct 14 03:28:01 centos postfix/qmgr[1081]: 8BF4C164DA4: removed
+Oct 14 11:41:15 centos postfix/postfix-script[25283]: stopping the Postfix mail system
+Oct 14 11:41:15 centos postfix/master[1075]: terminating on signal 15
+Oct 14 14:03:57 centos postfix/postfix-script[1074]: starting the Postfix mail system
+Oct 14 14:03:57 centos postfix/master[1076]: daemon started -- version 3.5.8, configuration /etc/postfix
+Oct 15 03:08:02 centos postfix/pickup[15686]: 01A1E164DA4: uid=0 from=<root>
+Oct 15 03:08:02 centos postfix/cleanup[16972]: 01A1E164DA4: message-id=<20211015030802.01A1E164DA4@centos.ru-central1.internal>
+Oct 15 03:08:02 centos postfix/qmgr[1078]: 01A1E164DA4: from=<root@centos.ru-central1.internal>, size=726, nrcpt=1 (queue active)
+Oct 15 03:08:02 centos postfix/local[16992]: 01A1E164DA4: to=<root@centos.ru-central1.internal>, orig_to=<root>, relay=local, delay=0.15, delays=0.09/0.03/0/0.02, dsn=2.0.0, status=sent (delivered to mailbox)
+Oct 15 03:08:02 centos postfix/qmgr[1078]: 01A1E164DA4: removed
+Oct 15 14:03:03 centos postfix/postfix-script[26799]: stopping the Postfix mail system
+Oct 15 14:03:03 centos postfix/master[1076]: terminating on signal 15
+Oct 15 14:48:03 centos postfix/postfix-script[1069]: starting the Postfix mail system
+Oct 15 14:48:03 centos postfix/master[1071]: daemon started -- version 3.5.8, configuration /etc/postfix
+Oct 16 03:16:02 centos postfix/pickup[13546]: 8CC1AD090B: uid=0 from=<root>
+Oct 16 03:16:02 centos postfix/cleanup[14276]: 8CC1AD090B: message-id=<20211016031602.8CC1AD090B@centos.ru-central1.internal>
+Oct 16 03:16:02 centos postfix/qmgr[1073]: 8CC1AD090B: from=<root@centos.ru-central1.internal>, size=724, nrcpt=1 (queue active)
+Oct 16 03:16:02 centos postfix/local[14278]: 8CC1AD090B: to=<root@centos.ru-central1.internal>, orig_to=<root>, relay=local, delay=0.27, delays=0.17/0.05/0/0.05, dsn=2.0.0, status=sent (delivered to mailbox)
+Oct 16 03:16:02 centos postfix/qmgr[1073]: 8CC1AD090B: removed
+Oct 16 14:47:14 centos postfix/postfix-script[31220]: stopping the Postfix mail system
+Oct 16 14:47:14 centos postfix/master[1071]: terminating on signal 15
+Oct 16 14:53:50 centos postfix/postfix-script[1081]: starting the Postfix mail system
+Oct 16 14:53:50 centos postfix/master[1083]: daemon started -- version 3.5.8, configuration /etc/postfix
